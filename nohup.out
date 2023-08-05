@@ -1,0 +1,87 @@
+[I 2023-08-05 11:14:18.688 ServerApp] Package notebook took 0.0000s to import
+[I 2023-08-05 11:14:18.694 ServerApp] Package jupyter_lsp took 0.0064s to import
+[W 2023-08-05 11:14:18.694 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-08-05 11:14:18.696 ServerApp] Package jupyter_server_fileid took 0.0016s to import
+[I 2023-08-05 11:14:18.700 ServerApp] Package jupyter_server_terminals took 0.0033s to import
+[I 2023-08-05 11:14:18.713 ServerApp] Package jupyter_server_ydoc took 0.0131s to import
+[I 2023-08-05 11:14:18.713 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2023-08-05 11:14:18.734 ServerApp] Package nbclassic took 0.0011s to import
+[W 2023-08-05 11:14:18.735 ServerApp] A `_jupyter_server_extension_points` function was not found in nbclassic. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-08-05 11:14:18.735 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2023-08-05 11:14:18.735 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-08-05 11:14:18.735 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2023-08-05 11:14:18.738 ServerApp] jupyter_server_fileid | extension was successfully linked.
+[I 2023-08-05 11:14:18.741 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2023-08-05 11:14:18.743 ServerApp] jupyter_server_ydoc | extension was successfully linked.
+[W 2023-08-05 11:14:18.744 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-08-05 11:14:18.744 LabApp] 'notebook_dir' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-08-05 11:14:18.744 LabApp] 'allow_remote_access' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-08-05 11:14:18.744 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-08-05 11:14:18.744 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-08-05 11:14:18.744 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-08-05 11:14:18.747 ServerApp] notebook_dir is deprecated, use root_dir
+[W 2023-08-05 11:14:18.747 ServerApp] ServerApp.password config is deprecated in 2.0. Use PasswordIdentityProvider.hashed_password.
+[I 2023-08-05 11:14:18.747 ServerApp] jupyterlab | extension was successfully linked.
+[W 2023-08-05 11:14:18.748 NotebookApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-08-05 11:14:18.748 NotebookApp] 'notebook_dir' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-08-05 11:14:18.748 NotebookApp] 'allow_remote_access' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-08-05 11:14:18.748 NotebookApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-08-05 11:14:18.748 NotebookApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-08-05 11:14:18.748 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-08-05 11:14:18.748 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-08-05 11:14:18.750 ServerApp] nbclassic | extension was successfully linked.
+[W 2023-08-05 11:14:18.752 JupyterNotebookApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-08-05 11:14:18.752 JupyterNotebookApp] 'notebook_dir' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-08-05 11:14:18.752 JupyterNotebookApp] 'allow_remote_access' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-08-05 11:14:18.752 JupyterNotebookApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-08-05 11:14:18.752 JupyterNotebookApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-08-05 11:14:18.752 JupyterNotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-08-05 11:14:18.752 JupyterNotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-08-05 11:14:18.754 ServerApp] notebook | extension was successfully linked.
+[W 2023-08-05 11:14:18.907 ServerApp] jupyter_nbextensions_configurator | error adding extension (enabled: True): The module 'jupyter_nbextensions_configurator' could not be found (No module named 'jupyter_nbextensions_configurator'). Are you sure the extension is installed?
+    Traceback (most recent call last):
+      File "/home/cheng/miniconda3/envs/llama2/lib/python3.10/site-packages/jupyter_server/extension/manager.py", line 319, in add_extension
+        extpkg = ExtensionPackage(name=extension_name, enabled=enabled)
+      File "/home/cheng/miniconda3/envs/llama2/lib/python3.10/site-packages/jupyter_server/extension/manager.py", line 183, in __init__
+        self._load_metadata()
+      File "/home/cheng/miniconda3/envs/llama2/lib/python3.10/site-packages/jupyter_server/extension/manager.py", line 198, in _load_metadata
+        raise ExtensionModuleNotFound(msg) from None
+    jupyter_server.extension.utils.ExtensionModuleNotFound: The module 'jupyter_nbextensions_configurator' could not be found (No module named 'jupyter_nbextensions_configurator'). Are you sure the extension is installed?
+[I 2023-08-05 11:14:18.907 ServerApp] notebook_shim | extension was successfully linked.
+[W 2023-08-05 11:14:18.919 ServerApp] WARNING: The Jupyter server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 2023-08-05 11:14:18.919 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-08-05 11:14:18.920 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2023-08-05 11:14:18.920 FileIdExtension] Configured File ID manager: ArbitraryFileIdManager
+[I 2023-08-05 11:14:18.921 FileIdExtension] ArbitraryFileIdManager : Configured root dir: /llm/xhcheng/nb/note
+[I 2023-08-05 11:14:18.921 FileIdExtension] ArbitraryFileIdManager : Configured database path: /home/cheng/.local/share/jupyter/file_id_manager.db
+[I 2023-08-05 11:14:18.921 FileIdExtension] ArbitraryFileIdManager : Successfully connected to database file.
+[I 2023-08-05 11:14:18.921 FileIdExtension] ArbitraryFileIdManager : Creating File ID tables and indices with journal_mode = DELETE
+[I 2023-08-05 11:14:18.921 FileIdExtension] Attached event listeners.
+[I 2023-08-05 11:14:18.921 ServerApp] jupyter_server_fileid | extension was successfully loaded.
+[I 2023-08-05 11:14:18.922 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2023-08-05 11:14:18.922 ServerApp] jupyter_server_ydoc | extension was successfully loaded.
+[I 2023-08-05 11:14:18.923 LabApp] JupyterLab extension loaded from /home/cheng/miniconda3/envs/llama2/lib/python3.10/site-packages/jupyterlab
+[I 2023-08-05 11:14:18.923 LabApp] JupyterLab application directory is /home/cheng/miniconda3/envs/llama2/share/jupyter/lab
+[I 2023-08-05 11:14:18.923 LabApp] Extension Manager is 'pypi'.
+[I 2023-08-05 11:14:18.925 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2023-08-05 11:14:18.927 ServerApp] nbclassic | extension was successfully loaded.
+[I 2023-08-05 11:14:18.929 ServerApp] notebook | extension was successfully loaded.
+[I 2023-08-05 11:14:18.929 ServerApp] Serving notebooks from local directory: /llm/xhcheng/nb/note
+[I 2023-08-05 11:14:18.929 ServerApp] Jupyter Server 2.7.0 is running at:
+[I 2023-08-05 11:14:18.929 ServerApp] http://localhost:8888/tree
+[I 2023-08-05 11:14:18.929 ServerApp]     http://127.0.0.1:8888/tree
+[I 2023-08-05 11:14:18.929 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2023-08-05 11:14:18.931 ServerApp] `root_dir` and `file_to_run` are incompatible. They don't share the same subtrees. Make sure `file_to_run` is on the same path as `root_dir`.
+
+  _   _          _      _
+ | | | |_ __  __| |__ _| |_ ___
+ | |_| | '_ \/ _` / _` |  _/ -_)
+  \___/| .__/\__,_\__,_|\__\___|
+       |_|
+                                                                           
+Read the migration plan to Notebook 7 to learn about the new features and the actions to take if you are using extensions.
+
+https://jupyter-notebook.readthedocs.io/en/latest/migrate_to_notebook7.html
+
+Please note that updating to Notebook 7 might break some of your extensions.
+
